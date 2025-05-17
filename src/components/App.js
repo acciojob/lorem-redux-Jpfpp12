@@ -1,13 +1,12 @@
-
-import React from "react";
-import './../styles/App.css';
+import React from 'react';
+import LoremContent from './loremContent.js';
 
 const App = () => {
   return (
-    <div>
-        {/* Do not remove the main div */}
+    <div style={{ padding: '20px' }}>
+      <LoremContent />
     </div>
-  )
-}
+  );
+};
 
-export default App
+export default App;
